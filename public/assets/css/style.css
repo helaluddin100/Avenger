@@ -7,6 +7,14 @@
   font-style: normal;
   font-display: swap;
 }
+@font-face {
+  font-family: "Golden Sentry";
+  src: url("./fonts/GoldenSentryRegular.woff2") format("woff2"),
+    url("./fonts/GoldenSentryRegular.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
 
 @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 * {
@@ -17,6 +25,7 @@
 
 :root {
   --title-font: "BadaBoom BB";
+  --s-title: "Golden Sentry";
   --text-border: -1px 0px 0 #000, 1px 5px 0 #000, 5px -1px 0 #000,
     -1px -1px 0 #000;
 }
@@ -333,10 +342,10 @@ img.second-img {
 .distribution-content {
   background-image: url(../img/dristrebute.png);
   background-repeat: no-repeat;
-  background-size: 95%;
+  background-size: 87%;
   background-position: center;
   padding: 100px 250px;
-  min-height: 810px;
+  min-height: 750px;
 }
 
 .distribution-title {
@@ -349,8 +358,14 @@ img.second-img {
 
 .dist-des {
   margin-top: 33px;
-  font-size: 18px;
+  font-size: 22px;
   font-weight: 800;
+  text-shadow: 0px 8px 15px rgb(0 0 0 / 85%);
+  transform: rotate(0.19deg);
+  text-align: center;
+  color: #fff;
+  font-family: var(--s-title);
+  letter-spacing: 3px;
 }
 
 .from-inner {
@@ -574,13 +589,17 @@ button.newsletter-submit {
 }
 
 .unlock-card {
-  background: #fff;
-  padding: 20px;
+  background: #00d1ff;
+  padding: 40px;
   border: 2px solid #000;
   text-align: center;
-  font-size: 17px;
+  font-size: 33px;
   transition: 0.3s;
   font-weight: 800;
+  font-family: var(--s-title);
+  text-shadow: 0px 4px 44px #000000;
+  color: #fff;
+  letter-spacing: 2px;
 }
 
 .unlock-card.rotet-card {
@@ -882,6 +901,22 @@ a.rarity-tool:hover {
     background-size: 116%;
   }
 }
+
+@media screen and (max-width: 1350px) {
+  img.left-map,
+  img.right-omnivers,
+  img.left-tree,
+  img.right-cloud,
+  img.left-omnivers,
+  img.right-map,
+  img.newsletter-img {
+    display: none;
+  }
+  .react-reveal.distribution-content {
+    background: none;
+    min-height: auto;
+  }
+}
 @media screen and (max-width: 1200px) {
   p.nav-list {
     text-align: center;
@@ -889,9 +924,7 @@ a.rarity-tool:hover {
   .faq-area {
     padding: 96px 0;
   }
-  img.newsletter-img {
-    display: none;
-  }
+
   img.left-map {
     display: none;
   }
@@ -949,9 +982,13 @@ a.rarity-tool:hover {
 }
 
 @media screen and (max-width: 992px) {
-  .react-reveal.distribution-content {
-    background: none;
-    min-height: auto;
+  .react-reveal.price-area {
+    display: flex;
+    margin-top: 30px;
+  }
+
+  a.rarity-tool {
+    margin: 10px;
   }
   .omniverse-content {
     background: #00dffd;
@@ -1380,6 +1417,8 @@ p.bio-des {
 
 .styles_row-content-text__2sgAB.row-content-text {
   background: none;
+  font-family: var(--s-title);
+  font-size: 20px !important;
 }
 
 .row-title {
@@ -1406,6 +1445,7 @@ p.bio-des {
 .row-title div {
   color: #000;
   padding-right: 0 !important;
+  font-family: var(--s-title);
 }
 
 span.icon-wrapper {
@@ -1423,6 +1463,7 @@ span.icon-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 30px;
 }
 
 a.others-link {
@@ -1845,7 +1886,7 @@ img.yeah {
   align-items: center;
   justify-content: end;
   position: relative;
-  background: #00dffd;
+  background: #00fd38;
   border-radius: 20px;
   padding: 40px;
   box-shadow: 10px 10px 0 0 #003d5b;
@@ -1866,6 +1907,7 @@ img.membar-img {
 .member-content h4 {
   font-size: 30px;
   font-weight: 800;
+  font-family: var(--s-title);
 }
 
 .member-content img {
@@ -1880,7 +1922,7 @@ img.membar-img {
   border-radius: 20px;
   padding: 0 29px;
   box-shadow: 10px 10px 0 0 #003d5b;
-  background: #ffca62;
+  background: #ff0b0b;
   font-size: 30px;
   font-weight: 600;
   color: #000;
@@ -1899,13 +1941,14 @@ img.membar-img {
 }
 
 .claim-des {
-  font-size: 20px;
+  font-size: 23px;
   font-weight: 700;
   background: #fff;
   padding: 36px 30px;
   border-radius: 20px;
   box-shadow: 10px 10px #003d5b;
   border: 3px solid #003d5b;
+  font-family: var(--s-title);
 }
 .claim-des.yello {
   background: #ffca62;
@@ -2017,4 +2060,58 @@ img.slider-item {
 .offer-notic p {
   font-size: 30px;
   font-weight: 800;
+  font-family: var(--s-title);
+  color: #fff;
+  text-shadow: 0px 4px 4px #000000;
+}
+
+.slider-navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  top: 45%;
+  width: 100%;
+  z-index: 20;
+}
+.slider-navigation img {
+  width: 70px;
+  margin: 20px;
+  cursor: pointer;
+}
+.title-p {
+  text-align: center;
+  font-family: var(--s-title);
+  font-size: 26px;
+}
+
+.sec-title-img h2 {
+  font-family: var(--s-title);
+  font-size: clamp(40px, 6vw, 100px);
+  margin-top: 30px;
+}
+span.green {
+  color: #00fd38;
+}
+img.dis-head-img {
+  width: 50%;
+}
+
+span.carbon {
+  color: #0167ff;
+  font-size: 30px;
+}
+.txt-color {
+  color: #000;
+}
+img.title-img {
+  width: 30%;
+}
+.react-reveal.newsletter-form {
+  text-align: center;
+  font-family: var(--s-title);
+  font-size: clamp(20px, 6vw, 44px);
+}
+a.others-link img {
+  width: 300px;
 }

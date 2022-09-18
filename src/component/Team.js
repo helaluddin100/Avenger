@@ -1,7 +1,9 @@
 import React from "react";
-import { Swiper, SwiperSlide } from "swiper/react/swiper-react";
+// import { Swiper, SwiperSlide } from "swiper/react/swiper-react";
 import { Autoplay } from "swiper";
-
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/swiper-bundle.min.css";
+import "swiper/swiper.min.css";
 import "swiper/swiper.min.css";
 function Team() {
   return (
@@ -11,8 +13,6 @@ function Team() {
         slidesPerView={1}
         autoplay={{
           delay: 2000,
-          pauseOnMouseEnter: true,
-          disableOnInteraction: false,
         }}
         loop={true}
         modules={[Autoplay]}

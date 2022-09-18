@@ -1,9 +1,11 @@
-import React from "react";
-import { Swiper, SwiperSlide } from "swiper/react/swiper-react";
-import { Autoplay } from "swiper";
+import React, { useRef, useState } from "react";
+import SwiperCore, { Navigation } from "swiper";
+import { Swiper, SwiperSlide } from "swiper/react";
 
-import "swiper/swiper.min.css";
+SwiperCore.use([Navigation]);
 function Artwork() {
+  const navigationPrevRef = React.useRef(null);
+  const navigationNextRef = React.useRef(null);
   return (
     <div>
       <Swiper
@@ -11,12 +13,18 @@ function Artwork() {
         slidesPerView={1}
         autoplay={{
           delay: 2000,
-          pauseOnMouseEnter: true,
           disableOnInteraction: false,
         }}
         loop={true}
-        modules={[Autoplay]}
         className='mySwiper'
+        navigation={{
+          prevEl: navigationPrevRef.current,
+          nextEl: navigationNextRef.current,
+        }}
+        onBeforeInit={(swiper) => {
+          swiper.params.navigation.prevEl = navigationPrevRef.current;
+          swiper.params.navigation.nextEl = navigationNextRef.current;
+        }}
       >
         <SwiperSlide>
           <div className='artwork-wrapper fixe-top'>
@@ -326,6 +334,14 @@ function Artwork() {
             </div>
           </div>
         </SwiperSlide>
+        <div className='slider-navigation'>
+          <div ref={navigationPrevRef}>
+            <img src='assets/img/prev.png' alt='' />
+          </div>
+          <div ref={navigationNextRef}>
+            <img src='assets/img/next.png' alt='' />
+          </div>
+        </div>
       </Swiper>
     </div>
   );

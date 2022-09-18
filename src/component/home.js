@@ -24,16 +24,28 @@ function Home() {
           </div>
         </div>
       </section>
-
       {/* ==================Hero section ================= */}
       {/* ==================ajo ================== */}
       <Flip left>
         <section>
           <div className='inter-the-ajo cpy-6'>
             <div className='container'>
-              <div className='row'>
-                <div className='sec-title-img'>
-                  <img src='assets/img/ajo-title.png' alt='' />
+              <div className='row justify-content-center '>
+                <div className='col-lg-8 '>
+                  <div className='row'>
+                    <div className='title-area'>
+                      <div className='title-p'>
+                        <p>
+                          Join a first of it's kind, Interactive Franchise
+                          Building Fan experience Help forge a new path for
+                          independent Storytellers everywhere
+                        </p>
+                      </div>
+                      <div className='sec-title-img'>
+                        <h2 className='title-text'>enter the ajo</h2>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
               <div className='row justify-content-center'>
@@ -56,7 +68,6 @@ function Home() {
           </div>
         </section>
       </Flip>
-
       {/* =================membership ==================== */}
       <Flip left>
         <div className='membership'>
@@ -70,14 +81,14 @@ function Home() {
                     className='membar-img'
                   />
                   <div className='member-content'>
-                    <h4>Membership / Each Aj Varient</h4>
+                    <h4>MEMBERSHIP / EACH AJ VARIENT</h4>
                     <img src='assets/img/offer.png' alt='' />
                   </div>
                 </div>
               </div>
               <div className='col-lg-5'>
                 <div className='offer-notic'>
-                  <p>Get your here (before thery are gone)</p>
+                  <p>GET YOUR HERE [BEFORE THEY’RE GONE]</p>
                 </div>
               </div>
             </div>
@@ -104,16 +115,17 @@ function Home() {
                 <div className='col-lg-8'>
                   <div className='des-align-center'>
                     <div className='claim-des'>
-                      Aj variants are limited edition electronic Membership
-                      collectibles that grant access to ajo’s various member
-                      perks and real world fun stuff
+                      <span className='green'>Aj variants</span> are limited
+                      edition electronic Membership collectibles that grant
+                      access to ajo’s various member perks and real world fun
+                      stuff
                     </div>
                   </div>
                 </div>
 
                 <div className='col-lg-8'>
                   <div className='des-align-center'>
-                    <div className='claim-des bg-red'>
+                    <div className='claim-des'>
                       Member will join the AJO’S cast of industry legends on a
                       unique journey as they help take the omniverse’s Various
                       content ideas from spec to completion
@@ -134,17 +146,17 @@ function Home() {
                   <div className='des-align-center'>
                     <div className='claim-des'>
                       Have a say in upcoming meli stories, characters,
-                      SPIN-OFFS, and all the merch you can Dream of (Litterally)
+                      SPIN-OFFS, and all the merch you can Dream of [Litterally]
                     </div>
                   </div>
                 </div>
 
                 <div className='col-lg-8'>
                   <div className='des-align-center'>
-                    <div className='claim-des yello'>
+                    <div className='claim-des'>
                       This includes the AJO's first ever cartoon, a superhero
                       sketch comedy spec pilot titled, "Avenging Justice"
-                      (currently in Post Production) - Think SNL meets Looney
+                      [currently in Post Production]- Think SNL meets Looney
                       Tunes but with Superheroes -
                     </div>
                   </div>
@@ -165,39 +177,40 @@ function Home() {
             <div className='row'>
               <div className='col-lg-12'>
                 <Flip left>
+                  <div className='distribution-title'>
+                    <img src='assets/img/destribute.png' alt='' />
+                  </div>
                   <div className='distribution-content '>
-                    <div className='distribution-title'>
-                      <img src='assets/img/destribute.png' alt='' />
-                      <div className='dist-des'>
-                        <p>
-                          There will be 14,100 AJ VARIANTS in the set. 10,000 of
-                          these will be released during the initial minting.
-                          Buying an AJ VARIANT from the initial drop will cost
-                          costs TBD ETH. There are no price tiers; The other
-                          4,100 tokens will be released as we move through the
-                          checklist and used for giveaways, community
-                          participation event rewards, online event prizes,
-                          story event dutch auctions as well as for the cast and
-                          crew.
-                        </p>
+                    <div className='dist-des'>
+                      <p>
+                        10,000
+                        <span className='green'>AJ Variant Memberships</span>
+                        Will Be Made Available For Purchase at Launch limited
+                        whitelist Presale -
+                        <span className='read'>$185 USD</span>* Public Sale -
+                        <span className='read'>$200 USD*</span>
+                        *The Dollar Equivalent of the value of MATIC [POLYGON]
+                        at the time of minting* Sign up for the Pre-sale
+                        Whitelist Below For Early Access [Limited Spots
+                        Available]
+                      </p>
 
-                        <from action=''>
-                          <div className='from-inner'>
-                            <div className='from-input'>
-                              <input
-                                type='text'
-                                placeholder='Enter your email'
-                                className='form-control white-list'
-                              />
-                            </div>
-                            <div className='from-btn'>
-                              <button type='submit' className='white-btn'>
-                                whitelist
-                              </button>
-                            </div>
+                      <from action=''>
+                        <div className='from-inner'>
+                          <div className='from-input'>
+                            <input
+                              type='text'
+                              placeholder='Enter your email'
+                              className='form-control white-list'
+                            />
                           </div>
-                        </from>
-                      </div>
+                          <div className='from-btn'>
+                            <button type='submit' className='white-btn'>
+                              whitelist
+                            </button>
+                          </div>
+                        </div>
+                      </from>
                     </div>
                   </div>
                 </Flip>
@@ -207,8 +220,52 @@ function Home() {
         </div>
       </Flip>
       {/* =================membership ==================== */}
-
+      {/* =================membership ==================== */}
       <Flip left>
+        <div className='membership'>
+          <div className='container'>
+            <div className='row'>
+              <div className='col-lg-7'>
+                <div className='member-offer'>
+                  <img
+                    src='assets/img/member.png'
+                    alt='Image not found'
+                    className='membar-img'
+                  />
+                  <div className='member-content'>
+                    <h4>MEMBERSHIP / EACH AJ VARIENT</h4>
+                    <img src='assets/img/offer.png' alt='' />
+                  </div>
+                </div>
+              </div>
+              <div className='col-lg-5'>
+                <div className='offer-notic'>
+                  <p>GET YOUR HERE [BEFORE THEY’RE GONE]</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </Flip>
+      {/* ==================== */}
+      <Flip left>
+        <div className='archiues cpt-6'>
+          <div className='container'>
+            <div className='row'>
+              <div className='sec-title'>
+                <img src='assets/img/archiues-title.png' alt='' />
+              </div>
+            </div>
+            <div className='row'>
+              <div className='archiues-des'>
+                <img src='assets/img/archius.png' alt='' />
+              </div>
+            </div>
+          </div>
+        </div>
+      </Flip>
+      {/* ========================? */}
+      {/* <Flip left>
         <div className='hero-and-mint'>
           <div className='hero-bg'>
             <div className='hero-section'>
@@ -252,7 +309,7 @@ function Home() {
               </div>
             </div>
 
-            {/* <div className='distribution'>
+            <div className='distribution'>
               <div className='container'>
                 <div className='row'>
                   <div className='col-lg-12'>
@@ -296,11 +353,10 @@ function Home() {
                   </div>
                 </div>
               </div>
-            </div> */}
+            </div>
           </div>
         </div>
-      </Flip>
-
+      </Flip> */}
       <div className='art-work cpt-6'>
         <Flip left>
           <div className='container'>
@@ -314,11 +370,42 @@ function Home() {
           </div>
         </Flip>
 
-        <img src='assets/img/icon/5.png' alt='' className='left-tree' />
-        <img src='assets/img/icon/4.png' alt='' className='right-tree' />
+        {/* <img src='assets/img/icon/5.png' alt='' className='left-tree' />
+        <img src='assets/img/icon/4.png' alt='' className='right-tree' /> */}
       </div>
 
-      <div className='omnivers'>
+      <div className='distribution'>
+        <div className='container'>
+          <div className='row'>
+            <div className='col-lg-12'>
+              <Flip left>
+                <div className='distribution-content '>
+                  <div className='distribution-title'>
+                    <img
+                      src='assets/img/dis-head.png'
+                      className='dis-head-img'
+                      alt=''
+                    />
+                    <div className='dist-des txt-color'>
+                      <p>
+                        Here at the AJO we believe if the creation of our
+                        fictional world is destroying our very non-fictional
+                        world, the price is to high. This Is Why{" "}
+                        <span className='green'>AJ Variants</span> are being
+                        minted through the{" "}
+                        <span className='carbon'>CARBON NEUTRAL</span> polygon
+                        blockchain. (Head to Our FAQ for More Information on the
+                        green future of WEB3)
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </Flip>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* <div className='omnivers'>
         <div className='container'>
           <div className='row justify-content-center'>
             <div className='col-lg-10'>
@@ -383,12 +470,19 @@ function Home() {
           className='left-omnivers'
         />
         <img src='assets/img/icon/6.png' alt='' className='right-omnivers' />
-      </div>
-
+      </div> */}
       {/* ==================faq================== */}
-
       <div className='faq-area'>
         <div className='container'>
+          <div className='row'>
+            <div className='sec-title'>
+              <img
+                src='assets/img/utilities.png'
+                className='title-img'
+                alt=''
+              />
+            </div>
+          </div>
           <div className='row '>
             <div className='col-lg-6 mb-5'>
               <Bounce left>
@@ -422,72 +516,34 @@ function Home() {
         </div>
       </div>
       {/* ==================faq================== */}
-
       {/* ==================newsletter================== */}
       <div className='newsletter'>
         <div className='container'>
-          <div className='sec-title'>
-            <img src='assets/img/subscribe.png' alt='' />
-          </div>
           <Flip left>
             <div className='newsletter-form'>
-              <form>
-                <div className='form-group form-wrapper'>
-                  <input
-                    type='email'
-                    className='form-control'
-                    id='exampleInputEmail1'
-                    aria-describedby='emailHelp'
-                    placeholder='Enter email'
-                  />
-                  <button className='newsletter-submit'>Submit</button>
-                </div>
-              </form>
+              ADDITIONAL UTILITIES INCLUDE CAST MEET N GREETS, EXCITING REAL
+              WORLD FUNCTIONALITY, AND MORE!!!
             </div>
           </Flip>
         </div>
-
-        <img
-          src='assets/img/animation/star-animation.gif'
-          alt=''
-          className='newsletter-img'
-        />
       </div>
-
       {/* ====================unlock area ================= */}
       <Flip left>
         <div className='unlock-area'>
           <div className='container'>
             <div className='row justify-content-center'>
-              <div className='col-lg-12'>
+              <div className='col-md-6'>
+                <div className='sec-title'>
+                  <img src='assets/img/conflict.png' alt='' />
+                </div>
+              </div>
+              <div className='col-lg-10'>
                 <div className='unlock-content'>
                   <div className='unlock-card'>
                     <p>
-                      Upon unlocking the COSMIC PUZZLE CUBE cube, Chameleon Man:
-                      The camouflaged crusader accidentally shatters the walls
-                      of a secret omniversal prison. In doing so, the hero
-                      unleashes a being of unfathomnable power known as The
-                      Everlonger. As old as the omniverse itself, The Everlonger
-                      was imprisoned by his creators, Time and Reality, for his
-                      constant "poking the bear" that was eternal omniversal
-                      balance. Free once more to "poke" the aforementioned
-                      "bear", Stealing the COSMIC PUZZLE CUBE from Chameleon
-                      Man, The Everlonger begins to travel to all the universes
-                      throughout the whole of the Omniverse. Causing cataclysmic
-                      events on every earth,
-                    </p>
-                  </div>
-
-                  <div className='unlock-card rotet-card'>
-                    <p>
-                      breaking the walls they seperate the omnniverse as he
-                      goes, the villain causes conflict through the whole of
-                      reality. War on an Omniversal scale. Every earth
-                      throughout existence going to battle with one another. Who
-                      would win? Would anyone win? Will anything ever be the
-                      same again?! Can it even be fixed? This wasn't time for
-                      such questions... no... This was... The Cataclysmic
-                      Omniverse Conflict
+                      As Milestones are achieved, the next phase of the Avenging
+                      Justice Omniverse (OUR ROADMAP) will commence. (Think of
+                      each Omnibus as a comic book event with various tie ins)
                     </p>
                   </div>
                 </div>
@@ -500,19 +556,8 @@ function Home() {
       <div className='road-map-area'>
         <div className='container'>
           <div className='row'>
-            <div className='col-lg-8'>
-              <Flip left>
-                <div className='road-map-head'>
-                  <img src='assets/img/road-map.png' alt='' />
-                  <div className='head-des'>
-                    <p>
-                      As Milestones are achieved, the next phase of the Avenging
-                      Justice Omniverse (OUR ROADMAP) will commence. (Think of
-                      each Omnibus as a comic book event with various tie ins)
-                    </p>
-                  </div>
-                </div>
-              </Flip>
+            <div className='sec-title'>
+              <img src='assets/img/checklist.png' alt='' />
             </div>
           </div>
           <div className='row'>
@@ -549,7 +594,6 @@ function Home() {
         <img src='assets/img/icon/7.png' alt='' className='right-map' />
       </div>
       {/* ====================Road Map area end ================= */}
-
       {/* ==================Community tools===================== */}
       <div className='community'>
         <div className='container'>
@@ -610,7 +654,7 @@ function Home() {
       </Flip>
       {/* ==================faq end=============== */}
       {/* ==================Team start===================== */}
-      <div className='team-area' id='team'>
+      {/* <div className='team-area' id='team'>
         <div className='container'>
           <div className='row'>
             <div className='title'>
@@ -667,7 +711,7 @@ function Home() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       {/* ==================Team end===================== */}
     </>
   );
