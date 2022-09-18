@@ -207,32 +207,7 @@ function Home() {
         </div>
       </Flip>
       {/* =================membership ==================== */}
-      <Flip left>
-        <div className='membership cpy-6'>
-          <div className='container'>
-            <div className='row'>
-              <div className='col-lg-7'>
-                <div className='member-offer'>
-                  <img
-                    src='assets/img/member.png'
-                    alt='Image not found'
-                    className='membar-img'
-                  />
-                  <div className='member-content'>
-                    <h4>Membership / Each Aj Varient</h4>
-                    <img src='assets/img/offer.png' alt='' />
-                  </div>
-                </div>
-              </div>
-              <div className='col-lg-5'>
-                <div className='offer-notic'>
-                  <p>Get your here (before thery are gone)</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </Flip>
+
       <Flip left>
         <div className='hero-and-mint'>
           <div className='hero-bg'>
@@ -277,7 +252,7 @@ function Home() {
               </div>
             </div>
 
-            <div className='distribution'>
+            {/* <div className='distribution'>
               <div className='container'>
                 <div className='row'>
                   <div className='col-lg-12'>
@@ -321,12 +296,12 @@ function Home() {
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </Flip>
 
-      <div className='art-work'>
+      <div className='art-work cpt-6'>
         <Flip left>
           <div className='container'>
             <div className='row'>

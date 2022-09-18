@@ -2014,3 +2014,7 @@ img.slider-item {
 .hidden-input {
   display: none;
 }
+.offer-notic p {
+  font-size: 30px;
+  font-weight: 800;
+}
