@@ -360,7 +360,7 @@ img.second-img {
   margin-top: 33px;
   font-size: 22px;
   font-weight: 800;
-  text-shadow: 0px 8px 15px rgb(0 0 0 / 85%);
+  text-shadow: 0px 8px 15px rgb(79 79 79 / 85%);
   transform: rotate(0.19deg);
   text-align: center;
   color: #fff;
@@ -2099,7 +2099,7 @@ img.dis-head-img {
 
 span.carbon {
   color: #0167ff;
-  font-size: 30px;
+  font-size: 22px;
 }
 .txt-color {
   color: #000;
