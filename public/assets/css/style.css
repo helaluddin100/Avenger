@@ -296,7 +296,7 @@ ul.menu-ul {
 p.nav-list {
   font-family: var(--title-font);
   font-size: 27px;
-  text-shadow: 3px 3px 0px #000000;
+  text-shadow: 3px 3px 0px #bcbcbc;
   color: black;
   -webkit-text-fill-color: white;
   /* Will override color (regardless of order) */

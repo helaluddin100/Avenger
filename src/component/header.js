@@ -42,8 +42,13 @@ function Header() {
                     </HashLink>
                   </li>
                   <li className='nav-list'>
-                    <HashLink smooth to={"/#team"} onClick={_toggleSidebar}>
-                      <p className='nav-list'>Team</p>
+                    <HashLink
+                      smooth
+                      to={"/#origins"}
+                      title={"Coming Soon"}
+                      onClick={_toggleSidebar}
+                    >
+                      <p className='nav-list'>Origins</p>
                     </HashLink>
                   </li>
                   <li className='nav-list'>
@@ -65,9 +70,11 @@ function Header() {
                     </HashLink>
                   </li>
                   <li className='nav-list'>
-                    <p className='nav-list'>The AJ HQ</p>
+                    <p className='nav-list' title='Coming Soon'>
+                      The AJ HQ
+                    </p>
 
-                    <div className='dp-menu'>
+                    {/* <div className='dp-menu'>
                       <ul className='dp-ul'>
                         <li className='nav-list'>
                           <p className='nav-list'>Home</p>
@@ -85,7 +92,7 @@ function Header() {
                           <p className='nav-list'>The Aj Hq</p>
                         </li>
                       </ul>
-                    </div>
+                    </div> */}
                   </li>
                   <li className='nav-list'>
                     <p className='nav-list'>
