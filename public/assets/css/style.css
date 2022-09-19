@@ -2208,3 +2208,10 @@ a.others-link img {
     padding: 50px 0px !important;
   }
 }
+div#exampleModal {
+  z-index: 99999;
+}
+.modal-header {
+  border: none;
+  padding-bottom: 0;
+}
