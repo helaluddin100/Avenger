@@ -2169,6 +2169,11 @@ a.others-link img {
     margin-top: -30px;
     text-align: center;
   }
+  .slider-navigation img {
+    width: 39px;
+    margin: 5px;
+    cursor: pointer;
+  }
 }
 @media screen and (max-width: 768px) {
   .val-3 img {
