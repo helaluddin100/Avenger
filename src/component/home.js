@@ -575,14 +575,26 @@ function Home() {
                       <img src='assets/img/roadmap/1.png' alt='' />
                       <img src='assets/img/roadmap/2.png' alt='' />
                       <img src='assets/img/roadmap/3.png' alt='' />
-                      <img src='assets/img/roadmap/4.png' alt='' />
                     </div>
                     <div className='right-col'>
                       <img src='assets/img/roadmap/5.png' alt='' />
                       <img src='assets/img/roadmap/6.png' alt='' />
                       <img src='assets/img/roadmap/7.png' alt='' />
-                      <img src='assets/img/roadmap/8.png' alt='' />
                     </div>
+                  </div>
+                  <div className='val-3'>
+                    <img
+                      src='assets/img/val-3.png'
+                      className='val-show-m'
+                      alt=''
+                    />
+                    <img src='assets/img/roadmap/4.png' alt='' />
+                    <img
+                      src='assets/img/val-3.png'
+                      className='val-hide'
+                      alt=''
+                    />
+                    <img src='assets/img/roadmap/8.png' alt='' />
                   </div>
                 </Fade>
               </div>

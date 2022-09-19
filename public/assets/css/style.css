@@ -103,7 +103,7 @@ li.nav-list a {
   text-decoration: none;
 }
 .distribution {
-  margin-top: 100px;
+  /* margin-top: 100px; */
 }
 
 input.form-control.white-list:focus {
@@ -353,7 +353,7 @@ img.second-img {
 }
 
 .distribution {
-  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 .dist-des {
@@ -1968,7 +1968,7 @@ img.membar-img {
 }
 @media screen and (max-width: 1200px) {
   img.membar-img {
-    display: none;
+    /* display: none; */
   }
 }
 img.ajo-des-img-m {
@@ -2105,7 +2105,7 @@ span.carbon {
   color: #000;
 }
 img.title-img {
-  width: 30%;
+  /* width: 65%; */
 }
 .react-reveal.newsletter-form {
   text-align: center;
@@ -2114,4 +2114,97 @@ img.title-img {
 }
 a.others-link img {
   width: 300px;
+}
+.archiues-des img {
+  max-width: 80%;
+}
+
+.archiues-des {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 1200px) {
+  .unlock-area {
+    min-height: 690px;
+  }
+  .road-map-content {
+    position: relative;
+    padding-top: 50px;
+  }
+  .distribution {
+    margin-bottom: 100px;
+    padding-top: 100px;
+  }
+}
+.val-3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: -30px;
+}
+
+.val-3 img {
+  width: 27%;
+}
+.val-show-m {
+  display: none;
+}
+@media screen and (max-width: 992px) {
+  .val-hide {
+    display: none;
+  }
+  .val-show-m {
+    display: initial;
+  }
+
+  .val-3 img {
+    width: 54%;
+    margin-bottom: 35px;
+  }
+  .val-3 {
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -30px;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 768px) {
+  .val-3 img {
+    width: 100%;
+    margin-bottom: 35px;
+  }
+  .member-offer {
+    justify-content: center;
+  }
+  span.carbon {
+    color: #0167ff;
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 600px) {
+  a.others-link img {
+    width: 160px;
+  }
+  .archiues-des img {
+    max-width: 100%;
+  }
+  .distribution {
+    padding-top: 0;
+    margin-bottom: 0;
+  }
+  img.dis-head-img {
+    width: 100%;
+    margin-top: 100px;
+  }
+  .membership {
+    margin-top: 65px;
+  }
+  .unlock-area {
+    min-height: fit-content;
+  }
+  .inter-the-ajo {
+    padding: 50px 0px !important;
+  }
 }
